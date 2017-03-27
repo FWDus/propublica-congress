@@ -14,8 +14,13 @@ Gem::Specification.new do |s|
     'https://propublica.github.io/congress-api-docs/#congress-api-documentation'
   s.license       = 'MIT'
   
-  s.files         = `git ls-files`.split("\n")
-  s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
+  s.files         = `git ls-files -z`.split("\n")
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
+  s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.require_paths = ["lib"]
+  
+  s.add_development_dependency "bundler", "~> 1.7"
+  s.add_development_dependency "rake", "~> 10.0"
+  s.add_development_dependency "rspec", '~> 0'
+  s.add_development_dependency "vcr", '~> 0'
 end

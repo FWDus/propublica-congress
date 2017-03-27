@@ -1,0 +1,136 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.propublica.org/congress/v1/members/W000817.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      X-Api-Key:
+      - 45Jqi2YUkG5u36euvspZI9yLR0dAOrz545XRSwW1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '7047'
+      Connection:
+      - keep-alive
+      Date:
+      - Mon, 27 Mar 2017 21:35:06 GMT
+      X-Amzn-Requestid:
+      - 3ef0eb15-1335-11e7-b846-0114ff96af02
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token
+      Access-Control-Allow-Methods:
+      - GET,OPTIONS
+      X-Amzn-Trace-Id:
+      - Root=1-58d9858a-56bb6bc90196c39caef2ba15
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 da12d67759e86c2692fb44b40cb48f23.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - d4x2Q-zGW9Lg3mz0qGNvnRH1rZTzX_6iOGg2Rtq75mMvSwVBAfk7Tg==
+    body:
+      encoding: UTF-8
+      string: "{\n   \"status\":\"OK\",\n   \"copyright\":\"Copyright (c) 2017 Pro
+        Publica Inc. All Rights Reserved.\",\n   \"results\":[\n      {\n         \"member_id\":
+        \"W000817\",\n         \n         \"first_name\": \"Elizabeth\",\n         \"middle_name\":
+        \"\",\n         \"last_name\": \"Warren\",\n         \"date_of_birth\": \"1949-06-22\",\n
+        \        \"gender\": \"F\",\n         \"url\": \"https://www.warren.senate.gov\",\n
+        \        \"times_topics_url\": \"\",\n         \"times_tag\": \"\",\n         \"govtrack_id\":
+        \"412542\",\n         \"cspan_id\": \"1023023\",\n         \"votesmart_id\":
+        \"141272\",\n         \"icpsr_id\": \"41301\",\n         \"twitter_account\":
+        \"SenWarren\",\n         \"facebook_account\": \"senatorelizabethwarren\",\n
+        \        \"youtube_account\": \"senelizabethwarren\",\n         \"crp_id\":
+        \"N00033492\",\n         \"google_entity_id\": \"/m/01qh39\",\n         \"rss_url\":
+        \"https://www.warren.senate.gov/rss/\",\n         \"domain\": \"www.warren.senate.gov\",\n
+        \        \"in_office\": \"true\",\n         \"current_party\": \"D\",\n         \"most_recent_vote\":
+        \"2017-03-23\",\n         \"roles\": [\n {\n           \"congress\": \"115\",\n
+        \          \"chamber\": \"Senate\",\n           \"title\": \"Senator, 1st
+        Class\",\n           \"state\": \"MA\",\n           \"party\": \"D\",\n           \"leadership_role\":
+        \"\",\n           \"fec_candidate_id\": \"S2MA00170\",\n           \"seniority\":
+        \"5\",\n           \"senate_class\": \"1\",\"state_rank\": \"senior\",\"lis_id\":
+        \"S366\",\n           \"ocd_id\": \"ocd-division/country:us/state:ma\",\n
+        \          \"start_date\": \"2017-01-03\",\n           \"end_date\": \"2019-01-03\",\n
+        \          \"office\": \"317 Hart Senate Office Building\",\n           \"phone\":
+        \"202-224-4543\",\n           \"fax\": \"202-228-2072\",\n           \"contact_form\":
+        \"https://www.warren.senate.gov/?p=email_senator\",\n           \"bills_sponsored\":
+        \"3\",\n           \"bills_cosponsored\": \"0\",\n           \"missed_votes_pct\":
+        \"0.00\",\n           \"votes_with_party_pct\": \"91.67\",\n           \"committees\":
+        [\n           {\n             \"name\": \"Special Committee on Aging\",\n
+        \            \"code\": \"SPAG\",\n             \"api_uri\": \"https://api.propublica.org/congress/v1/115/senate/committees/SPAG.json\",\n
+        \            \"rank_in_party\": \"\",\n             \"begin_date\": \"\",\n
+        \            \"end_date\": \"2017-01-03\"\n           },\n           {\n             \"name\":
+        \"Committee on Armed Services\",\n             \"code\": \"SSAS\",\n             \"api_uri\":
+        \"https://api.propublica.org/congress/v1/115/senate/committees/SSAS.json\",\n
+        \            \"rank_in_party\": \"\",\n             \"begin_date\": \"\",\n
+        \            \"end_date\": \"2017-01-03\"\n           },\n           {\n             \"name\":
+        \"Committee on Banking, Housing, and Urban Affairs\",\n             \"code\":
+        \"SSBK\",\n             \"api_uri\": \"https://api.propublica.org/congress/v1/115/senate/committees/SSBK.json\",\n
+        \            \"rank_in_party\": \"\",\n             \"begin_date\": \"\",\n
+        \            \"end_date\": \"2017-01-03\"\n           },\n           {\n             \"name\":
+        \"Committee on Health, Education, Labor, and Pensions\",\n             \"code\":
+        \"SSHR\",\n             \"api_uri\": \"https://api.propublica.org/congress/v1/115/senate/committees/SSHR.json\",\n
+        \            \"rank_in_party\": \"\",\n             \"begin_date\": \"\",\n
+        \            \"end_date\": \"2017-01-03\"\n           }\n           ]\n         },\n
+        \       {\n           \"congress\": \"114\",\n           \"chamber\": \"Senate\",\n
+        \          \"title\": \"Senator, 1st Class\",\n           \"state\": \"MA\",\n
+        \          \"party\": \"D\",\n           \"leadership_role\": \"\",\n           \"fec_candidate_id\":
+        \"S2MA00170\",\n           \"seniority\": \"3\",\n           \"senate_class\":
+        \"1\",\"state_rank\": \"\",\"lis_id\": \"S366\",\n           \"ocd_id\": \"ocd-division/country:us/state:ma\",\n
+        \          \"start_date\": \"2015-01-06\",\n           \"end_date\": \"2017-01-03\",\n
+        \          \"office\": \"\",\n           \"phone\": \"\",\n           \"fax\":
+        \"\",\n           \"contact_form\": \"\",\n           \"bills_sponsored\":
+        \"27\",\n           \"bills_cosponsored\": \"274\",\n           \"missed_votes_pct\":
+        \"0.00\",\n           \"votes_with_party_pct\": \"91.83\",\n           \"committees\":
+        [\n           {\n             \"name\": \"Special Committee on Aging\",\n
+        \            \"code\": \"SPAG\",\n             \"api_uri\": \"https://api.propublica.org/congress/v1/114/senate/committees/SPAG.json\",\n
+        \            \"rank_in_party\": \"\",\n             \"begin_date\": \"\",\n
+        \            \"end_date\": \"2017-01-03\"\n           },\n           {\n             \"name\":
+        \"Committee on Banking, Housing, and Urban Affairs\",\n             \"code\":
+        \"SSBK\",\n             \"api_uri\": \"https://api.propublica.org/congress/v1/114/senate/committees/SSBK.json\",\n
+        \            \"rank_in_party\": \"\",\n             \"begin_date\": \"\",\n
+        \            \"end_date\": \"2017-01-03\"\n           },\n           {\n             \"name\":
+        \"Committee on Health, Education, Labor, and Pensions\",\n             \"code\":
+        \"SSHR\",\n             \"api_uri\": \"https://api.propublica.org/congress/v1/114/senate/committees/SSHR.json\",\n
+        \            \"rank_in_party\": \"\",\n             \"begin_date\": \"\",\n
+        \            \"end_date\": \"2017-01-03\"\n           },\n           {\n             \"name\":
+        \"Committee on Energy and Natural Resources\",\n             \"code\": \"SSEG\",\n
+        \            \"api_uri\": \"https://api.propublica.org/congress/v1/114/senate/committees/SSEG.json\",\n
+        \            \"rank_in_party\": \"\",\n             \"begin_date\": \"\",\n
+        \            \"end_date\": \"2017-01-03\"\n           }\n           ]\n         },\n
+        \       {\n           \"congress\": \"113\",\n           \"chamber\": \"Senate\",\n
+        \          \"title\": \"Senator, 1st Class\",\n           \"state\": \"MA\",\n
+        \          \"party\": \"D\",\n           \"leadership_role\": \"\",\n           \"fec_candidate_id\":
+        \"\",\n           \"seniority\": \"1\",\n           \"senate_class\": \"1\",\"state_rank\":
+        \"\",\"lis_id\": \"S366\",\n           \"ocd_id\": \"ocd-division/country:us/state:ma\",\n
+        \          \"start_date\": \"2013-01-03\",\n           \"end_date\": \"2015-01-03\",\n
+        \          \"office\": \"\",\n           \"phone\": \"\",\n           \"fax\":
+        \"\",\n           \"contact_form\": \"\",\n           \"bills_sponsored\":
+        \"15\",\n           \"bills_cosponsored\": \"292\",\n           \"missed_votes_pct\":
+        \"1.83\",\n           \"votes_with_party_pct\": \"97.67\",\n           \"committees\":
+        [\n           {\n             \"name\": \"Committee on Health, Education,
+        Labor, and Pensions\",\n             \"code\": \"SSHR\",\n             \"api_uri\":
+        \"https://api.propublica.org/congress/v1/113/senate/committees/SSHR.json\",\n
+        \            \"rank_in_party\": \"12\",\n             \"begin_date\": \"2013-01-03\",\n
+        \            \"end_date\": \"2015-01-03\"\n           },\n           {\n             \"name\":
+        \"Special Committee on Aging\",\n             \"code\": \"SPAG\",\n             \"api_uri\":
+        \"https://api.propublica.org/congress/v1/113/senate/committees/SPAG.json\",\n
+        \            \"rank_in_party\": \"11\",\n             \"begin_date\": \"2013-01-03\",\n
+        \            \"end_date\": \"2015-01-03\"\n           },\n           {\n             \"name\":
+        \"Committee on Banking, Housing, and Urban Affairs\",\n             \"code\":
+        \"SSBK\",\n             \"api_uri\": \"https://api.propublica.org/congress/v1/113/senate/committees/SSBK.json\",\n
+        \            \"rank_in_party\": \"11\",\n             \"begin_date\": \"2013-01-03\",\n
+        \            \"end_date\": \"2015-01-03\"\n           }\n           ]\n         }\n
+        \      ]\n        }\n    ]\n}\n"
+    http_version: 
+  recorded_at: Mon, 27 Mar 2017 21:35:06 GMT
+recorded_with: VCR 3.0.3
